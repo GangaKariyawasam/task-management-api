@@ -23,7 +23,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the packaged JAR file into the container
-COPY --from=build /app/target/coveragex-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY --from=build /app/target/task_management-0.0.1-SNAPSHOT.jar /app/app.jar
 
 # Expose the application port (default Spring Boot port is 8080)
 EXPOSE 8080
