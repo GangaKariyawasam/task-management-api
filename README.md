@@ -60,13 +60,13 @@ The backend API will be available at:
 
 ### Task Management
 
-      GET /api/tasks - Get all tasks (Authenticated users)
+      GET /api/task/getAll - Get all tasks (Authenticated users)
 
-      POST /api/tasks - Create a new task
+      POST /api/task/create - Create a new task
 
-      PUT /api/tasks/{id} - Update a task
+      PUT /api/task/update/{taskId} - Update a task
 
-      DELETE /api/tasks/{id} - Delete a task
+      DELETE /api/task/delete/{taskId} - Delete a task
 
 ### Authorization
 
