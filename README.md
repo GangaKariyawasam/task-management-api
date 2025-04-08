@@ -29,7 +29,7 @@ Here is a list of software that need to be installed for this project to work:
 
 1. Clone the Repository
 
-         $ git clone https://github.com/your-repo/task-management-api.git
+         $ git clone https://github.com/GangaKariyawasam/task-management-api.git
          $ cd task-management-api
 
 2. Build the Project
